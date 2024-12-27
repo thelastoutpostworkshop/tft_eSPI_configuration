@@ -2,6 +2,8 @@
 #include <AnimatedGIF.h>
 #include "bb8.h"
 
+// Tutorial : https://youtu.be/6lLlKY5U77w
+
 TFT_eSPI tft = TFT_eSPI();
 AnimatedGIF gif;
 
