@@ -9,7 +9,7 @@ void setup()
 {
     Serial.begin(115200);
     tft.init();
-    tft.setRotation(3);
+    tft.setRotation(2);
     tft.fillScreen(TFT_BLACK);
     gif.begin(GIF_PALETTE_RGB565_BE);
     gif.setDrawType(GIF_DRAW_COOKED);
